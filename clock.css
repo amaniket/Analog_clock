@@ -1,0 +1,40 @@
+#clockContainer
+{
+    position: relative;
+    background-color: aqua;
+    height: 86vh;
+    width: 48vw;
+    background :url(clock1.png/clock-without-hands-11549791002wehd8vrt9h.png) no-repeat;
+    margin: auto;
+    background-size: 83%;
+}
+#hour,#min,#second{
+    position: absolute;
+    transform-origin: bottom;
+
+}
+#hour{
+    width: 1.5%;
+    height: 18%;
+    left: 41.25%;
+    top: 34.5%;
+    background-color: black;
+
+
+} 
+ #min{
+    width: 1%;
+    height: 28%;
+    top: 24.5%;
+    left: 41.36%;
+    background-color: blue;
+
+
+}
+#second{
+    height: 31%;
+    top: 21.5%;
+    width: 0.65%;
+    left: 41.50%;
+    background-color:red;
+} 
